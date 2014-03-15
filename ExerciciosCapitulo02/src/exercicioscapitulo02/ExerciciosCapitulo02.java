@@ -6,6 +6,8 @@
 
 package exercicioscapitulo02;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Aluno
@@ -16,7 +18,12 @@ public class ExerciciosCapitulo02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("ola mundo");
+        int soma = 0;
+        for(int i = 1; i < 1000; i=i+2){
+            soma= soma + i;
+}
+        JOptionPane.showMessageDialog(null,"Resultado da soma é : "+soma);
+
     }
     
 }
